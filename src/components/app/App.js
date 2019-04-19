@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './HybrIT-Logo-White.png';
+import logo from '../../assets/images/HybrIT-Logo-White.png';
 import './App.css';
 
 class App extends Component {
