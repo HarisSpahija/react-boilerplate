@@ -73,8 +73,10 @@ The footer is optional and is used to reference issue tracker IDs.
 
 **Good:**
 `feat: Change home screen after login to my account`
+
 **Bad:**
 `feat: Changed home screen after login to my account`
+
 Use **change**, not changed or changes. The goal is to always use an imperative tone to describe what a commit does.
 
 ---
@@ -82,8 +84,10 @@ Use **change**, not changed or changes. The goal is to always use an imperative 
 
 **Good:**
 `docs: Create new commit examples`
+
 **Bad:**
 `documentation: Create new commit examples`
+
 Use one of the predefined types instead of creating your own types.
 
 ---
@@ -91,8 +95,10 @@ Use one of the predefined types instead of creating your own types.
 
 **Good:**
 `docs: Create new commit examples`
+
 **Bad:**
 `docs: create new commit examples.`
+
 All subjects should begin with a capital letter and not end with a period.
 
 # Available Scripts
