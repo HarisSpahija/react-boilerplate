@@ -1,14 +1,14 @@
-.App {
+.Main {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 15s linear;
+.Main-logo {
+  animation: Main-logo-spin infinite 15s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
+.Main-header {
   background: linear-gradient(89deg, #ff3a00, #f0860f, #ff3a00, #f0860f);
   background-size: 800% 800%;
   min-height: 100vh;
@@ -24,11 +24,11 @@
   animation: AnimationName 43s ease infinite;
 }
 
-.App-link {
+.Main-link {
   color: white;
 }
 
-@keyframes App-logo-spin {
+@keyframes Main-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -38,17 +38,35 @@
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:24% 0%}
-  50%{background-position:77% 100%}
-  100%{background-position:24% 0%}
+  0% {
+    background-position: 24% 0%;
+  }
+  50% {
+    background-position: 77% 100%;
+  }
+  100% {
+    background-position: 24% 0%;
+  }
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:24% 0%}
-  50%{background-position:77% 100%}
-  100%{background-position:24% 0%}
+  0% {
+    background-position: 24% 0%;
+  }
+  50% {
+    background-position: 77% 100%;
+  }
+  100% {
+    background-position: 24% 0%;
+  }
 }
-@keyframes AnimationName { 
-  0%{background-position:24% 0%}
-  50%{background-position:77% 100%}
-  100%{background-position:24% 0%}
+@keyframes AnimationName {
+  0% {
+    background-position: 24% 0%;
+  }
+  50% {
+    background-position: 77% 100%;
+  }
+  100% {
+    background-position: 24% 0%;
+  }
 }
