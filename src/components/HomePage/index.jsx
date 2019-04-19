@@ -5,23 +5,18 @@ import './index.css';
 
 export default function HomePage() {
   return (
-    <div className="Main">
-      <header className="Main-header">
-        <img src={logo} className="Main-logo" alt="logo" />
+    <div className="container">
+      <header className="header">
+        <img src={logo} className="logo" alt="logo" />
         <p>
           Edit
           <code> src/components/HomePage/index.jsx </code>
           and save to reload.
         </p>
-        <a
-          className="Main-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
-        <NavLink to="/form" className="Main-link">
+        <NavLink to="/form" className="link">
           Form Examples
         </NavLink>
       </header>
