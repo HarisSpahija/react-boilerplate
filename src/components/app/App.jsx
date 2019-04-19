@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/HybrIT-Logo-White.png';
+import InputForm from '../exampleform/index';
 import './App.css';
 
 export function App() {
@@ -21,6 +22,7 @@ export function App() {
           Learn React
         </a>
       </header>
+      <InputForm />
     </div>
   );
 }
